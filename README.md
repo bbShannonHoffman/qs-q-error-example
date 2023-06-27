@@ -7,11 +7,33 @@ Error: After loading the search bar then routing to another page, there is an "U
 
 There is also an error pulling the theme in, but we are still investigating that. 
 
-[See this screenshot for error](Q_Search_Bar_Error.png)
+![See this screenshot for error](Q_Search_Bar_Error.png)
 
 # Running this project
+To run this project:
 
+1. Clone the repo
+```
+gh repo clone bbShannonHoffman/qs-q-error-example
+```
+
+2. Enter the main folder
+```
+cd qs-q-error-example/
+```
+
+3. Install the packages
+```
+npm install
+```
+
+4. Change the url the the Q Search Bar uses in /components/QSearchBar.tsx
 You will need to have a valid url to use to replace 'YOUR_Q_SEARCH_BAR_URL' in the /components/QSearchBar.tsx file. You will also need to ensure that localhost has been enabled as a valid domain in the QS console.
+
+5. Run the app
+```
+npm run
+```
 
 After the app has loaded, navigate to the QSearchBar page, then route back to Home. The console will show an error 
 
