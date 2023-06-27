@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# QuickSight Q Search Bar Error Example
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React project demonstates the error we are experiencing with the Q Search Bar in the current version of the QuickSight Embedding SKD.
+
+## The Error
+Error: After loading the search bar then routing to another page, there is an "Uncaught (in promise) undefined" error thrown in the console.
+
+[Error Screenshot](Q_Search_Bar_Error.png)
+
+# Running this project
 
 ## Available Scripts
 
