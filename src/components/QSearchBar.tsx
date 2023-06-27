@@ -31,7 +31,7 @@ export const QSearchBar: React.FunctionComponent = () => {
         const contentOptions: QSearchContentOptions = {
             hideIcon: true,
             hideTopicName: false,
-            theme: 'CLASSIC', // TODO: Add a real themeId here
+            theme: 'CLASSIC',
             allowTopicSelection: true,
             onMessage: messageEvent => {
                 switch (messageEvent.eventName) {

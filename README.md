@@ -5,9 +5,15 @@ This React project demonstates the error we are experiencing with the Q Search B
 ## The Error
 Error: After loading the search bar then routing to another page, there is an "Uncaught (in promise) undefined" error thrown in the console.
 
-[Error Screenshot](Q_Search_Bar_Error.png)
+There is also an error pulling the theme in, but we are still investigating that. 
+
+[See this screenshot for error](Q_Search_Bar_Error.png)
 
 # Running this project
+
+You will need to have a valid url to use to replace 'YOUR_Q_SEARCH_BAR_URL' in the /components/QSearchBar.tsx file. You will also need to ensure that localhost has been enabled as a valid domain in the QS console.
+
+After the app has loaded, navigate to the QSearchBar page, then route back to Home. The console will show an error 
 
 ## Available Scripts
 
