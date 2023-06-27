@@ -1,6 +1,6 @@
 # QuickSight Q Search Bar Error Example
 
-This React project demonstates the error we are experiencing with the Q Search Bar in the current version of the QuickSight Embedding SKD.
+This React project demonstates the error we are experiencing with the Q Search Bar in the current version (2.2.2) of the QuickSight Embedding SKD.
 
 ## The Error
 Error: After loading the search bar then routing to another page, there is an "Uncaught (in promise) undefined" error thrown in the console.
@@ -32,7 +32,7 @@ You will need to have a valid url to use to replace 'YOUR_Q_SEARCH_BAR_URL' in t
 
 5. Run the app
 ```
-npm run
+npm start
 ```
 
 After the app has loaded, navigate to the QSearchBar page, then route back to Home. The console will show an error 
